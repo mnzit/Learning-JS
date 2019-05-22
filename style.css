@@ -1,0 +1,33 @@
+#container {
+    margin: 0 auto;
+    background: grey;
+    height: 500px;
+    width: 700px;
+    position:relative
+}
+
+#left-handle {
+    width: 5px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    left:0;
+    margin-left:15px;
+}
+
+#right-handle {
+    width: 5px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    right:0;
+    margin-right:15px;
+}
+
+#ball{
+    position: absolute;
+    width:10px;
+    height:10px;
+    background:black;
+    border-radius: 100%;
+}
